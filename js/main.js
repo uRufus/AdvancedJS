@@ -149,7 +149,7 @@ class Cart extends List{
 }
 
 class CartItem extends Item{
-    constructor(el, img = 'products/pic'){
+    constructor(el, img = 'pictures/pic.png'){
         super(el, img);
         this.quantity = el.quantity;
     }
